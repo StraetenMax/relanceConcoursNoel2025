@@ -3,7 +3,6 @@
   <mj-head>
     <mj-title>relance jeu concours supveto 2025</mj-title>
     <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap"/>
-    <mj-font name="Cookie" href="https://fonts.googleapis.com/css2?family=Cookie&amp;display=swap"/>
     <mj-raw>
       <meta charset="UTF-8">
       <meta name='color-scheme' content='light'/>
@@ -23,16 +22,11 @@
       <mj-class name="fw0" font-weight="400"/>
       <mj-class name="fw1" font-weight="600"/>
       <mj-class name="fw2" font-weight="700"/>
-      <mj-class name="cTW0" color="#ffffff"/>
-      <mj-class name="cTW1" color="#EEF1F5"/>
-      <mj-class name="cTW2" color="#DEE2E5"/>
       <mj-class name="cTW3" color="#666666"/>
-      <mj-class name="cTB" color="#000000"/>
-      <mj-class name="cbgContainer" container-background-color="#5A5656"/>
-      <mj-class name="bgFsombre" background-color="#212121"/>
-      <mj-class name="bgFclair" background-color="#eaeaea"/>
-      <mj-class name="bgV" background-color="#00412b"/>
-      <mj-class name="bgV+2" background-color="#002b1c"/>
+      <mj-class name="cRed" color="#a50c11"/>
+      <mj-class name="cGreen" color="#098855"/>
+      <mj-class name="cDark" color="#212121"/>
+      <mj-class name="bgGreen" background-color="#008d36"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
@@ -49,25 +43,25 @@
     </mj-section>
     <mj-section padding="0 20px" background-color="#ffffff">
       <mj-column width="100%" padding-bottom="5px">
-        <mj-text padding="0" align="center" mj-class="T22 fw2" line-height="22px" color="#a50c11">Jeu Concours 2025</mj-text>
+        <mj-text padding="0" align="center" mj-class="T22 fw2 cRed" line-height="22px">Jeu Concours 2025</mj-text>
       </mj-column>
       <mj-column width="100%">
         <mj-image padding="0" width="500px" src="https://i.ibb.co/DD996zr6/photo-Noel.png" alt="Photo de Noël"></mj-image>
       </mj-column>
       <mj-column width="100%" padding-top="5px">
-        <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="700" color="#098855">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
-        <mj-text padding="0" align="center" font-size="18px" line-height="24px" font-weight="500" color="#098855">Cartes cadeaux à gagner !!!</mj-text>
+        <mj-text padding="0" align="center" mj-class="T18 fw2 cGreen">À envoyer avant le 4&nbsp;janvier&nbsp;2026</mj-text>
+        <mj-text padding="0" align="center" mj-class="T18 fw1 cGreen">Cartes cadeaux à gagner !!!</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="30px" background-color="#ffffff">
       <mj-column>
-        <mj-text padding="0" mj-class="T16 fw0" color="#212121">Les vacances de Noël approche <span style="font-size:24px;line-height:24px;">&#127877;</span>… et c’est le moment parfait pour partager un instant magique avec ton compagnon&nbsp;! <span style="font-size:24px;line-height:24px;">&#10024;</span></mj-text>
-        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0" color="#212121">Que ce soit entre deux repas de fête ou après une balade hivernale, profite des vacances pour habiller ton animal d’un accessoire festif, ajouter une touche d’humour et capturer la photo la plus joyeuse de l’année.</mj-text>
-        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0" color="#212121"><span style="font-size:24px;line-height:24px;">&#128073;</span> <span style="font-weight:700;">Pour participer</span>, envoie une seule photo par mail à <a style="font-weight:700;color:#B50000" href="mailto:concours.noel2025@supveto.com">concours.noel2025@supveto.com</a>, en précisant ton <span style="font-weight:700">nom</span>, ton <span style="font-weight:700">prénom</span> et ton <span style="font-weight:700">école Sup-Véto</span>.</mj-text>
-        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0" color="#212121">Tu peux être sur la photo ou laisser ton compagnon briller seul&nbsp;: l’essentiel est de montrer votre complicité et de diffuser de la bonne humeur. <span style="font-size:24px;line-height:24px;">&#128054;&#128049;</span> </mj-text>
-        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0" color="#212121">Alors, même pendant les vacances, fais de ton animal le roi ou la reine de Noël et tente de gagner des cartes cadeaux&nbsp;! <span style="font-size:24px;line-height:24px;">&#127876;&#128062;</span></mj-text>
-        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0" color="#212121">À toi de jouer, et joyeuses fêtes&nbsp;!</mj-text>
-        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0" color="#212121">L’équipe Sup-Véto <span style="font-size:24px;line-height:24px;">&#127876;</span></mj-text>
+        <mj-text padding="0" mj-class="T16 fw0 cDark">Les vacances de Noël approche <span style="font-size:24px;line-height:24px;">&#127877;</span>… et c’est le moment parfait pour partager un instant magique avec ton compagnon&nbsp;! <span style="font-size:24px;line-height:24px;">&#10024;</span></mj-text>
+        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0 cDark">Que ce soit entre deux repas de fête ou après une balade hivernale, profite des vacances pour habiller ton animal d’un accessoire festif, ajouter une touche d’humour et capturer la photo la plus joyeuse de l’année.</mj-text>
+        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0 cDark"><span style="font-size:24px;line-height:24px;">&#128073;</span> <span style="font-weight:700;">Pour participer</span>, envoie une seule photo par mail à <a style="font-weight:700;color:#B50000" href="mailto:concours.noel2025@supveto.com">concours.noel2025@supveto.com</a>, en précisant ton <span style="font-weight:700">nom</span>, ton <span style="font-weight:700">prénom</span> et ton <span style="font-weight:700">école Sup-Véto</span>.</mj-text>
+        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0 cDark">Tu peux être sur la photo ou laisser ton compagnon briller seul&nbsp;: l’essentiel est de montrer votre complicité et de diffuser de la bonne humeur. <span style="font-size:24px;line-height:24px;">&#128054;&#128049;</span> </mj-text>
+        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0 cDark">Alors, même pendant les vacances, fais de ton animal le roi ou la reine de Noël et tente de gagner des cartes cadeaux&nbsp;! <span style="font-size:24px;line-height:24px;">&#127876;&#128062;</span></mj-text>
+        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0 cDark">À toi de jouer, et joyeuses fêtes&nbsp;!</mj-text>
+        <mj-text padding="0" padding-top="15px" mj-class="T16 fw0 cDark">L’équipe Sup-Véto <span style="font-size:24px;line-height:24px;">&#127876;</span></mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0" background-color="#ffffff">
@@ -75,15 +69,15 @@
         <mj-image padding="0" align="center" width="600px" src="https://i.ibb.co/8gbPgK88/bas-Image12025.png" alt="Lapin, perroquet, cheval et serpent avec un chapeau de noël dans un cadre instagram"/>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" padding-bottom="40px" background-color="#008d36">
+    <mj-section padding="20px" padding-bottom="40px" mj-class="bgGreen">
       <mj-column>
         <mj-image padding="0" align="center" width="200px" src="https://i.ibb.co/HT2C6zYJ/logo-Supveto.png" alt="logotype de Supveto"/>
       </mj-column>
     </mj-section>
     <mj-section padding="20px">
       <mj-column width="420px">
-        <mj-text padding="0" align="center" mj-class="T12 cTW3">Cet e-mail a été envoyé à <a style="color:#666666;text-decoration:none;">{{ contact.EMAIL }}</a>. Vous recevez cette information car vous vous êtes inscrit sur Sup-Véto. Pour être sûr(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a style="color:#666666;text-decoration:none;" htref="mailto:contact@supveto.fr">contact@supveto.fr</a> à votre carnet d'adresses.</mj-text>
-        <mj-text padding="0" align="center" mj-class="T12 cTW3"><a style="color:#666666" href="{{ unsubscribe }}">Cliquez&nbsp;ici</a> pous vous désabonner</mj-text>
+        <mj-text padding="0" align="center" mj-class="T12 cTW3">Cet e-mail a été envoyé à <a style="color:#666666;text-decoration:none;" href="mailto:{{ contact.EMAIL }}">{{ contact.EMAIL }}</a>. Vous recevez cette information car vous vous êtes inscrit sur Sup-Véto. Pour être sûr(e) de recevoir tous nos emails, nous vous conseillons d'ajouter <a style="color:#666666;text-decoration:none;" href="mailto:contact@supveto.fr">contact@supveto.fr</a> à votre carnet d'adresses.</mj-text>
+        <mj-text padding="0" align="center" mj-class="T12 cTW3"><a style="color:#666666" href="{{ unsubscribe }}">Cliquez&nbsp;ici</a> pour vous désabonner</mj-text>
         <mj-text padding="20px 0" align="center" mj-class="T12 cTW3">© 2025 Sup-Véto</mj-text>
       </mj-column>
     </mj-section>
